@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Manav {
     public static void main(String[] args) {
-        float armut = 2.14F, elma = 3.67F, domates = 1.11F, muz = 0.95F, patlıcan = 5.00F;
+        float armut = 2.14F, elma = 3.67F, domates = 1.11F, muz = 0.95F, patlican = 5.00F;
 
         Scanner input = new Scanner(System.in);
         System.out.println("Kaç kilo armut aldın? ");
@@ -17,9 +17,9 @@ public class Manav {
         float muzF = input.nextFloat();
 
         System.out.println("Kaç kilo patlıcan aldın? ");
-        float patlıcanF = input.nextFloat();
+        float patlicanF = input.nextFloat();
 
-        float toplam = (armut * armutF) + (elma * elmaF) + (domates * domatesF) + (muz * muzF) + (patlıcan * patlıcanF);
+        float toplam = (armut * armutF) + (elma * elmaF) + (domates * domatesF) + (muz * muzF) + (patlican * patlicanF);
         System.out.println("Toplam tutar: " + toplam);
     }
 }
